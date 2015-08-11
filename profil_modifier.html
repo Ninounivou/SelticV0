@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Seltic mon Profil</title>
+  <meta name="description" content="Sel TIC votre temps vous appartient">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" rel="script">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+                <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="navigation">
+                    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2" id="logo">
+                        <a href="home.html"><img src="img/logo.png"></a>
+                    </div>
+                    <div class=" text-center col-xs-6 col-sm-4 col-md-4 col-lg-4" id="nav">
+                        <li class="col-xs-4"><a href="home.html">Home</a></li>
+                        <li class="col-xs-4"><a href="Actualités.html">Actualités</a></li>
+                        <li class="col-xs-4"><a href="Services.html">Services</a></li>
+                    </div>
+                    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2" id="rechercher">
+                        <form name="formbarre">
+                            <input type="text" name="barre" id="barre" placeholder= "recherche..." />
+                             <input type="button" id="search" onclick="rechercher() " value="🔎" />
+                        </form>
+                    </div>
+                        <div class=" text-center col-xs-6 col-sm-4 col-md-4 col-lg-4"  id="profile">
+                            <div class="btn-group">
+                                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/cady.png"><span class="caret"></span>
+                                </button>
+                                    <ul class="dropdown-menu dropcady">
+                                         <li><a href="Achat.html">Vos Achats</a></li>
+                                         <li><a href="">Vider le Panier</a></li>
+                                    </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/notif.png"><span class="caret"></span>
+                                </button>
+                                    <ul class="dropdown-menu dropnotif">
+                                         <li><a href="profil.html">Messages</a></li>
+                                         <li><a href="profil.html">Services en cours</a></li>
+                                         <li><a href="#">Inviter des Amis</a></li>
+                                    </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png"><span class="caret"></span>
+                                </button>
+                                    <ul class="dropdown-menu dropprofil">
+                                         <li><a href="profil.html">Mon Profil</a></li>
+                                         <li><a href="profil.html">Banque de temps</a></li>
+                                         <li><a href="profil.html">Mes Contacts</a></li>
+                                         <li><a href="profil.html">Paramètres</a></li>
+                                         <li><a href="landingpage.html">Se déconnecter</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                </header>
+            </div>
+            <div class="row" id="apercuprofil">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="monprofil">
+                    <a href="#"><img class="col-xs-4 col-sm-4 col-md-4 col-lg-4" src="img/profi.jpg" tittle="changer de photo"></a>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="bloc1">
+                      <input class="col-xs-12 col-sm-12 col-md-12 col-lg-12" type="text" placeholder="Nom, Prénom">
+                      <input class="hidden-xs col-sm-12 col-md-12 col-lg-12" type="text" placeholder="Localisation">
+                      <input class="col-xs-12 col-sm-12 col-md-12 col-lg-12" type="text" placeholder="Entrer une de vos Compétences">
+                      <h5 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Adobe Photoshop</h5>
+                      <h5 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Python</h5>
+                      <h5 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Rubis</h5>
+                    </div>
+                    <h3 class="col-xs-4 col-sm-4 col-md-4 col-lg-4">🕦 12H</h3>
+                    <a class="text-center col-xs-4 col-sm-4 col-md-4 col-lg-4" href="profil.html"><button>Enregistrer</button></a>
+                     <a class="text-center col-xs-4 col-sm-4 col-md-4 col-lg-4" href="profil.html"><button>Annuler</button></a>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="propos">
+                    <h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">A Propos</h3>
+                    <h6 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">membre depuis 05/08/2015.</h6>
+                    <textarea class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Je me présente je suis Edouard étudiant en Infographisme j'aime partager mes connaissances et en apprendre de nouvelles c'est pourquoi je suis ici afin d'aider et d'etre aider. </textarea>
+                  </div>
+            </div>
+      </div>
+          
+
+
+
+
+  </div>
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/dropdown.js"></script>
+</html>

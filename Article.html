@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Seltic Article</title>
+	<meta name="description" content="Sel TIC votre temps vous appartient">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" rel="script">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+    </style>
+
+</head>
+<body>
+	<div class="container-fluid">
+        <div class="row">
+                <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="navigation">
+                    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2" id="logo">
+                        <a href="home.html"><img src="img/logo.png"></a>
+                    </div>
+                    <div class=" text-center col-xs-6 col-sm-4 col-md-4 col-lg-4" id="nav">
+                        <li class="col-xs-4"><a href="home.html">Home</a></li>
+                        <li class="col-xs-4"><a href="Actualités.html">Actualités</a></li>
+                        <li class="col-xs-4"><a href="Services.html">Services</a></li>
+                    </div>
+                    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2" id="rechercher">
+                        <form name="formbarre">
+                            <input type="text" name="barre" id="barre" placeholder= "recherche..." />
+                             <input type="button" id="search" onclick="rechercher() " value="🔎" />
+                        </form>
+                    </div>
+                        <div class=" text-center col-xs-6 col-sm-4 col-md-4 col-lg-4"  id="profile">
+                            <div class="btn-group">
+                                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/cady.png"><span class="caret"></span>
+                                </button>
+                                    <ul class="dropdown-menu dropcady">
+                                         <li><a href="Achat.html">Vos Achats</a></li>
+                                         <li><a href="">Vider le Panier</a></li>
+                                    </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/notif.png"><span class="caret"></span>
+                                </button>
+                                    <ul class="dropdown-menu dropnotif">
+                                         <li><a href="profil.html">Messages</a></li>
+                                         <li><a href="profil.html">Services en cours</a></li>
+                                         <li><a href="#">Inviter des Amis</a></li>
+                                    </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png"><span class="caret"></span>
+                                </button>
+                                    <ul class="dropdown-menu dropprofil">
+                                         <li><a href="profil.html">Mon Profil</a></li>
+                                         <li><a href="profil.html">Banque de temps</a></li>
+                                         <li><a href="profil.html">Mes Contacts</a></li>
+                                         <li><a href="profil.html">Paramètres</a></li>
+                                         <li><a href="landingpage.html">Se déconnecter</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                </header>
+            </div>
+            <div class="row" id="caddy">
+              <img class="col-xs-12 col-12 col-md-6 col-lg-6" src="img/social.jpg">
+              <div class="col-xs-12 col-12 col-md-6 col-lg-6" id="article">
+                <h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Titre de l'article</h2>
+                <h4 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Proposé par <a href="#">Auteur</a>,</h4>
+                <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at justo a elit rutrum lacinia. Sed quis faucibus est. Phasellus sit amet porta nulla. Proin lobortis a orci eget feugiat. Sed semper imperdiet est, non interdum purus varius quis. Aenean commodo aliquet tincidunt. Sed vehicula augue lectus, et cursus libero luctus tempor. Vivamus consectetur dui dictum, accumsan purus quis, facilisis libero. Donec tortor dui, ultrices eu posuere in, laoreet in massa. Etiam augue metus, semper a malesuada quis, efficitur at ligula. Nulla fermentum ex dui, ac tincidunt mi maximus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at justo a elit rutrum lacinia. Sed quis faucibus est. Phasellus sit amet porta nulla. Proin lobortis a orci eget feugiat. Sed semper imperdiet est, non interdum purus varius quis. Aenean commodo aliquet tincidunt. Sed vehicula augue lectus, et cursus libero luctus tempor. Vivamus consectetur dui dictum, accumsan purus quis, facilisis libero. Donec tortor dui, ultrices eu posuere in, laoreet in massa. Etiam augue metus, semper a malesuada quis, efficitur at ligula. Nulla fermentum ex dui, ac tincidunt mi maximus vitae.</p>
+                <a class="col-xs-6 col-12 col-md-6 col-lg-6" href="Article.html"><button>Article précédent</button></a>
+                <a class="col-xs-6 col-12 col-md-6 col-lg-6" href="Article.html"><button>Article suivant</button></a>
+                <h3 class="col-xs-12 col-sm-6 col-md-6 col-lg-6">Si cette article vous a plu, vous pouvez le <a href="#"><span>partager</span></a></h3>
+              </div>
+            </div>
+            <div class="row">
+                <footer class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footer">
+                 <ul>
+                    <li><p class="col-xs-10 col-sm-10 col-md-10 col-lg-10">Copyright#SelTic 2015</p></li>
+                    <li><a href="#"><img class="col-xs-1 col-sm-1 col-md-1 col-lg-1" src="img/fb.png" alt="" ></a></li>
+                    <li><a href="#"><img class="col-xs-1 col-sm-1 col-md-1 col-lg-1" src="img/twitter.png" alt=""></a></li>
+                 </ul>
+                </footer>
+            </div>
+    </div>
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/dropdown.js"></script>
+</html>

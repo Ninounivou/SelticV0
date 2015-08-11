@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Seltic mon Profil</title>
+	<meta name="description" content="Sel TIC votre temps vous appartient">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" rel="script">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+                <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="navigation">
+                    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2" id="logo">
+                        <a href="home.html"><img src="img/logo.png"></a>
+                    </div>
+                    <div class=" text-center col-xs-6 col-sm-4 col-md-4 col-lg-4" id="nav">
+                        <li class="col-xs-4"><a href="home.html">Home</a></li>
+                        <li class="col-xs-4"><a href="Actualités.html">Actualités</a></li>
+                        <li class="col-xs-4"><a href="Services.html">Services</a></li>
+                    </div>
+                    <div class="hidden-xs col-sm-2 col-md-2 col-lg-2" id="rechercher">
+                        <form name="formbarre">
+                            <input type="text" name="barre" id="barre" placeholder= "recherche..." />
+                             <input type="button" id="search" onclick="rechercher() " value="🔎" />
+                        </form>
+                    </div>
+                        <div class=" text-center col-xs-6 col-sm-4 col-md-4 col-lg-4"  id="profile">
+                            <div class="btn-group">
+                                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/cady.png"><span class="caret"></span>
+                                </button>
+                                    <ul class="dropdown-menu dropcady">
+                                         <li><a href="Achat.html">Vos Achats</a></li>
+                                         <li><a href="">Vider le Panier</a></li>
+                                    </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/notif.png"><span class="caret"></span>
+                                </button>
+                                    <ul class="dropdown-menu dropnotif">
+                                         <li><a href="profil.html">Messages</a></li>
+                                         <li><a href="profil.html">Services en cours</a></li>
+                                         <li><a href="#">Inviter des Amis</a></li>
+                                    </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/profil.png"><span class="caret"></span>
+                                </button>
+                                    <ul class="dropdown-menu dropprofil">
+                                         <li><a href="profil.html">Mon Profil</a></li>
+                                         <li><a href="profil.html">Banque de temps</a></li>
+                                         <li><a href="profil.html">Mes Contacts</a></li>
+                                         <li><a href="profil_modifier.html">Paramètres</a></li>
+                                         <li><a href="landingpage.html">Se déconnecter</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                </header>
+            </div>
+            <div class="row" id="apercuprofil">
+		            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="monprofil">
+		            		<img class="col-xs-4 col-sm-4 col-md-4 col-lg-4" src="img/profi.jpg">
+		            		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="bloc1">
+		            			<h2 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">👤 Ed. Kirsthy</h2>
+								<h4 class="hidden-xs col-sm-12 col-md-12 col-lg-12">☛ Paris, France</h4>
+			            		<h5 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Adobe Photoshop</h5>
+			            		<h5 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Python</h5>
+			            		<h5 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Rubis</h5>
+			            	</div>
+			            	<h3 class="col-xs-4 col-sm-4 col-md-4 col-lg-4">🕦 12H</h3>
+		            		<a class="text-center col-xs-4 col-sm-4 col-md-4 col-lg-4" href="profil_modifier.html"><button>Modifier Profil</button></a>
+		            	</div>
+		            	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="propos">
+		            		<h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">A Propos</h3>
+		            		<h6 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">membre depuis 05/08/2015.</h6>
+		            		<p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Je me présente je suis Edouard étudiant en Infographisme j'aime partager mes connaissances et en apprendre de nouvelles c'est pourquoi je suis ici afin d'aider et d'etre aider. </p>
+		            	</div>
+		            	<div class=" text-center col-xs-12 col-sm-12 col-md-12 col-lg-12" id="banquetemps">
+		            		<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3" id="obtenus">
+		            			<h4>Temps Obtenus</h4>
+		            			<h2>50h</h2>
+		            			<span class="visible-xs visible-sm"></span>
+		            			<h3 class="hidden-xs hidden-sm">Heure(s)</h3>
+		            		</div>
+		            		<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3" id="distribuer">
+		            			<h4>Temps Distribués</h4>
+		            			<h2>17h</h2>
+		            			<span class="visible-xs visible-sm"></span>
+		            			<h3 class="hidden-xs hidden-sm">Heure(s)</h3>
+		            		</div>
+		            		<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3" id="terminer">
+		            			<h4>Terminées</h4>
+		            			<h2>2h</h2>
+		            			<h3 class="hidden-xs hidden-sm">Requete(s)</h3>
+		            		</div>
+		            		<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3" id="encours">
+		            			<h4>En Cours</h4>
+		            			<h2>1h</h2>
+		            			<h3 class="hidden-xs hidden-sm">Heure(s)</h3>
+		            		</div>
+		            	</div>
+	        	</div>
+	    </div>
+	        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="notifications">
+	        	<div class="row">
+	        		<!-- Nav tabs -->
+				  <ul class="nav nav-tabs text-center col-xs-12 col-sm-12 col-md-12 col-lg-12" role="tablist">
+				    <li role="presentation" class="active"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+				    <li role="presentation"><a href="#services" aria-controls="services" role="tab" data-toggle="tab">Services</a></li>
+				    <li role="presentation"><a href="#temps" aria-controls="temps" role="tab" data-toggle="tab">Historique Temps</a></li>
+				    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+				  </ul>
+
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="messages">
+				    	<a href="#"><button>Nouveau Message</button></a>
+				    	<table class="table">
+						    <thead>
+						      <tr>
+						        <th>Username</th>
+						        <th>Email</th>
+						        <th>Date</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						      <tr>
+						        <td>John</td>
+						        <td>Doe@example.com</td>
+						        <td>25/07/2015</td>
+						      </tr>
+						      <tr>
+						        <td>Mary</td>
+						        <td>Moe@gmail.com</td>
+						        <td>14/11/2014</td>
+						      </tr>
+						      <tr>
+						        <td>July</td>
+						        <td>Dooley@live.fr</td>
+						        <td>30/01/2013</td>
+						      </tr>
+						    </tbody>
+						  </table>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="services">
+				    	<table class="table">
+						    <thead>
+						      <tr>
+						        <th>Service</th>
+						        <th>Nom du bénéficiaire</th>
+						        <th>Email</th>
+						        <th>Date</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						      <tr>
+						        <td>Photoshop</td>
+						        <td>Doe</td>
+						        <td>john@example.com</td>
+						        <td>31/12/2014</td>
+						      </tr>
+						      <tr>
+						        <td>Javascript</td>
+						        <td>Moe</td>
+						        <td>mary@example.com</td>
+						        <td>24/05/2014</td>
+						      </tr>
+						      <tr>
+						        <td>3D</td>
+						        <td>Dooley</td>
+						        <td>july@example.com</td>
+						        <td>17/07/2013</td>
+						      </tr>
+						    </tbody>
+						  </table>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="temps">
+				    	<table class="table">
+						    <thead>
+						      <tr>
+						        <th>Temps</th>
+						        <th>Motif</th>
+						        <th>Date</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						      <tr>
+						        <td>2H</td>
+						        <td>service rendu</td>
+						        <td>14/12/2014</td>
+						      </tr>
+						      <tr>
+						        <td>-1H</td>
+						        <td>service payé</td>
+						        <td>31/02/2014</td>
+						      </tr>
+						      <tr>
+						        <td>5H</td>
+						        <td>service rendu</td>
+						        <td>25/11/2013</td>
+						      </tr>
+						    </tbody>
+						  </table>
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="settings">
+				    	<a href="profil_modifier.html"><button>Modifier le Profil</button></a>
+				    </div>
+				  </div>
+	        	</div>
+	        </div>
+
+
+
+
+	</div>
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/dropdown.js"></script>
+<script src="js/tab.js"></script>
+</html>

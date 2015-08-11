@@ -1,0 +1,530 @@
+/* Styles de base */
+      body {
+        margin: 0 auto;
+        overflow-x: hidden; 
+      }
+      header #navigation {
+        height: 5vh;
+        position:fixed; 
+        z-index:1;
+        background-color:#fff;
+      }
+      #Actus {
+        margin-top: 5vh;
+      }
+      a {
+        color: #5ab0a5;
+        text-decoration: none;
+      }
+      .pagination {
+      position: relative;
+      left: 35%;
+      color: #5ab0a5;
+      }
+
+
+      /* Styles pour les smartphones */
+      /*PROFIL*/
+      .btn-group {
+        width: 30%;
+        display: inline-block;
+        padding: 1% 25% 1% 1%;
+      }
+       #profile img {
+        width: 15%;
+        height: 15%;
+      }
+       #nav li {
+        display: inline;
+        font-size: 0.9em;
+        padding: 1% 15% 1% 1%;
+      }
+      #notifications {
+        margin-top: 5vh;
+      }
+      #monprofil img {
+        height: 30%;
+        width: 30%;
+        padding: 9% 0% 4% 0%;
+      }
+      #monprofil {
+        border-bottom: 2px solid #5ab0a5;
+      }
+      #bloc1 {
+        text-align: center;
+        padding: 2% 0% 5% 5%;
+      }
+      #bloc1 h4 {
+        padding: 0% 0% 5% 3%;
+      }
+      #monprofil h3 {
+        text-align: center;
+        color: #ff6c00;
+        padding: 5% 0% 4% 0%;
+      }
+      #monprofil a button {
+        width: 50%;
+      }
+      #monprofil h5 {
+        border: 1px solid #ff6c00;
+      }
+      #propos {
+        text-align: center;
+        padding: 0% 0% 4% 0%;
+      }
+      #propos h3 {
+        padding: 0% 0% 1% 0%;
+        text-decoration: underline;
+      }
+      #banquetemps {
+        background-color: #5ab0a5;
+        color: #ff6c00;
+      }
+      span {
+        border-bottom: 1px solid #fff;
+      }
+      button {
+        background-color: #5ab0a5;
+        color: #fff;
+      }
+      /*LANDINGPAGE*/
+      #header {
+        height: 100vh;
+        color: #fff;
+        background: url(../img/landing.png)no-repeat;
+        background-size: 100% 100%; 
+      }
+      #login {
+          top: 5%;
+        }
+        #Inscription {
+          top: 25%;
+        }
+        #Inscription input{
+          width: 50%;
+        }
+        #Inscription input#valider{
+          width: 13%;
+        }
+        #Join {
+          left: 25%;
+          top: 15%;
+        }
+        #Join h2 {
+          text-align: center;
+      font-size: 4em;
+        }
+        #Join span h2 {
+      color: #ff6c00;
+        }
+        #valider {
+      background-color: #849297;
+      border: solid 1px #fff;
+        }
+        #chiffre h3{
+          font-size: 4em;
+      color: #ff6c00;
+        }
+        #chiffre h4{
+          font-size: 2em;
+        }
+        #chiffre p{
+          font-size: 1.5em;
+        }
+
+      #chiffre img{
+      height: 15%;
+      width: 15%;
+        }
+        /*HOME*/
+        #Une {
+        color: #ff6c00; 
+        border-bottom: 1px solid #000;
+      }
+      #service {
+        border: 1px solid #ff6c00;
+        height: 15vh;
+        margin: 1% 0% 1% 0%;
+      }
+      #service h4 {
+        text-decoration: underline;
+        font-size: 1em;
+        padding: 0;
+      }
+      #news {
+        padding: 1% 1% 1% 1%;
+        height: 30vh;
+      }
+      #autre {
+        padding: 1% 1% 1% 1%;
+        margin: 1% 0% 1% 0%;
+      }
+      #autre p, #autre h4 {
+        padding: 1% 1% 0% 5%;
+      }
+      #Actus #service img {
+        height: 100%;
+        width: 50%;
+        padding: 0;
+      }
+      #service {
+        padding: 0;
+      }
+      #Nouveautes #news img {
+        height: 15vh;
+        width: 100%;
+        padding: 0;
+      }
+      #divers #autre img {
+        height: 15vh;
+        width: 100%;
+        padding: 0;
+      }
+      #placement {
+        padding:0; 
+        border: 1px solid #ff6c00;
+      }
+      footer {
+        background-color: #a9a9a9;
+        height: 7vh;
+      }
+      footer ul li {
+        display: inline;
+        padding: 0;
+      }
+      footer p {
+        padding: 1% 1% 1% 1%;
+      }
+      #footer  img {
+        padding: 0% 1% 0% 0%;
+        height: 6%;
+        width: 6%;
+      }
+      /*SERVICES*/
+       .thumbnail {
+        height: 25vh;
+        width: 100%;
+      }
+      .thumbnail a img {
+        height: 30%;
+        width: 100%;
+      }
+      .thumbnail h3 {
+        color: #5ab0a5;
+      }
+      #b1 button {
+        background-color: #5ab0a5;
+        color: #fff;
+        border: none;
+      }
+      #b2 button {
+        background-color: #ff6c00;
+        color: #fff;
+        border: none;
+      }
+      /*ACHAT*/
+      #caddy {
+        height: 90vh;
+        margin-top: 5vh;
+        font-size: 1.5em;
+        border: 2px solid #5ab0a5;
+      }
+      #caddy img {
+        height: 100%;
+      }
+      #achat h2 {
+        text-decoration: underline;
+        color:  #5ab0a5;
+      }
+      #achat {
+        padding: 3% 1% 0% 1%;
+      }
+      button {
+        background-color: #5ab0a5;
+        color: #fff;
+        border: none;
+      }
+      #caddy h4 a {
+        color: #ff6c00;
+      }
+      span {
+        color: #5ab0a5;
+      }
+      /*ACTUALITES*/
+      #service {
+        border: 1px solid #ff6c00;
+        height: 15vh;
+        margin: 1% 0% 1% 0%;
+      }
+      #service h4 {
+        text-decoration: underline;
+        font-size: 1em;
+        padding: 0;
+      }
+      #Actus #service img {
+        height: 100%;
+        width: 30%;
+        padding: 0;
+      }
+      #service {
+        padding: 0;
+      }
+      /*ARTICLE*/
+
+      #article h2 {
+        text-decoration: underline;
+        color:  #5ab0a5;
+      }
+      #article {
+        padding: 3% 1% 0% 1%;
+      }
+
+
+      /* Styles pour les tablettes */
+      @media (min-width: 768px) {
+        .btn-group {
+          left: 15%;
+          width: 20%;
+          display: inline-block;
+          padding: 1% 15% 1% 1%;
+       }
+       /*SERVICES*/
+       .thumbnail {
+        height: 30vh;
+        width: 100%;
+      }
+      /*MODIFIER PROFIL*/
+      #bloc1 {
+            padding: 9% 0% 0% 5%;
+      }
+
+
+
+      /* Styles pour les tablettes */
+      @media (min-width: 768px) {
+        /*PROFIL*/
+        .btn-group {
+        left: 15%;
+        width: 20%;
+        display: inline-block;
+        padding: 1% 15% 1% 1%;
+       }
+       #bloc1 {
+        padding: 9% 0% 0% 5%;
+      }
+      /*LANDINGPAGE*/
+      #login {
+          top: 5%;
+        }
+        #Inscription {
+          top: 25%;
+        }
+        #Inscription input{
+          width: 50%;
+        }
+        #Inscription input#valider{
+          width: 10%;
+        }
+        #Join {
+          left: 0%;
+          text-align: center;
+          top: 15%;
+        }
+        #Join h2 {
+      font-size: 5em;
+        }
+        #Join span h2 {
+      color: #ff6c00;
+        }
+        #valider {
+      background-color: #849297;
+      border: solid 1px #fff;
+        }
+        #chiffre h3{
+          font-size: 5em;
+      color: #ff6c00;
+        }
+        #chiffre h4{
+          font-size: 3em;
+        }
+        #chiffre p{
+          font-size: 1.5em;
+        }
+        /*HOME*/
+        #service p {
+        font-size: 0.9em;
+       }
+       .item a button {
+        color: #fff;
+        z-index: 55;
+        background-color: #5ab0a5;
+        position: relative;
+      left: 25%;
+      top: 90%;
+      }
+      /*SERVICES*/
+      .thumbnail {
+        height: 30vh;
+        width: 100%;
+      }
+      /*ARTICLE*/
+      #caddy {
+        overflow: auto; 
+       }
+      }
+      /* Styles pour les écrans moyens et grands */
+      @media (min-width: 992px) {
+        /*PROFIL*/
+       #logo, #rechercher, #nav,.btn-group, #profile {
+        padding: 0% 1% 1% 1%;
+      }
+      .btn-group {
+        display: inline;
+      }
+      .btn-group button {
+        width: 30%;
+      }
+       #profile a {
+        padding: 1% 15% 1% 1%;
+      }
+       #nav li {
+        display: inline;
+        font-size: 1.5em;
+        padding: 1% 15% 1% 1%;
+      }
+      .dropdown-menu {
+        position: relative;
+        margin: 10% 0% 0% -45%;
+      }
+      #monprofil img {
+        height: 15%;
+        width: 15%;
+        padding: 4% 0% 4% 0%;
+      }
+      #monprofil h5 {
+        font-size: 1.3em;
+      }
+      #bloc1 {
+            padding: 5% 0% 0% 5%;
+      }
+      #propos h6 {
+        font-size: 1.3em;
+        color: #5ab0a5;
+      }
+      #propos h3 {
+        font-size: 2em;
+      }
+      #propos p {
+        font-size: 1.5em;
+      }
+      /*LANDINGPAGE*/
+      #login {
+          top: 5%;
+        }
+        #Inscription {
+          top: 25%;
+        }
+        #Inscription input{
+          width: 50%;
+        }
+        #Inscription input#valider{
+          width: 10%;
+        }
+        #Join {
+          left: 0%;
+          top: 15%;
+        }
+        #Join h2 {
+      font-size: 7em;
+        }
+        #Join span h2 {
+      color: #ff6c00;
+        }
+        #valider {
+      background-color: #849297;
+      border: solid 1px #fff;
+        }
+        #chiffre h3{
+          font-size: 5em;
+      color: #ff6c00;
+        }
+        #chiffre h4{
+          font-size: 3em;
+        }
+        #chiffre p{
+          font-size: 1.5em;
+        }
+        /*HOME*/
+        #carousel-example-generic {
+        height: 60vh;
+        color: #fff;
+      }
+      .carousel {
+        text-align: center;
+      }
+      .slide1 {
+        height: 60vh;
+        background: url(../img/carou1.jpeg)no-repeat;
+        background-size: cover;
+      }
+      .slide2 {
+        height: 60vh;
+        background: url(../img/carou2.jpg)no-repeat;
+        background-size: cover;
+      }
+      .slide3 {
+        height: 60vh;
+        background: url(../img/carou1.jpeg)no-repeat;
+        background-size: cover;
+      }
+      #news {
+        height: 40vh;
+      }
+      #Nouveautes #divers {
+        margin: 1% 0% 1% 0%;
+      }
+      #Nouveautes #news img {
+        height: 30vh;
+        width: 100%;
+      }
+      #divers #autre img {
+        height: 30vh;
+        width: 100%;
+      }
+      #footer  img {
+        height: 4%;
+        width: 4%;
+      }
+      #service h4 {
+        font-size: 1.3em;
+       }
+      #service p {
+        font-size: 1em;
+       }
+       /*SERVICES*/
+       .pagination {
+        position: relative;
+      left: 45%;
+      }
+      .thumbnail {
+        height: 38vh;
+        width: 100%;
+      }
+      .caption p {
+        font-size: 1em;
+      }
+      /*ACHAT*/
+      #achat {
+        padding: 0% 1% 5% 1%;
+      }
+      #achat p {
+        padding: 5% 1% 5% 1%;
+      }
+      /*ARTICLE*/
+      #article {
+        padding: 0% 1% 5% 1%;
+      }
+      #article p {
+        padding: 5% 1% 5% 1%;
+      }
+      }
